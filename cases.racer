@@ -411,6 +411,15 @@
 (related  case243 unknownForwardContact has-direct-contact)
 (related  case243 white has-race) 
 
+(instance case246 (and Person (equal has-age 36)))
+(related  case246 hospitalized has-status)
+(related  case246 female has-gender)
+(related  case246 Alba has-detection-location)
+(related  case246 importedCase has-source-of-infection)
+(related  case246 Italy has-origin-of-infection)
+(related  case246 d22 has-confirmation-date) 
+(related  case246 unknownForwardContact has-direct-contact)
+
 (instance case301 (and Person (equal has-age 55)))
 (related  case301 hospitalized has-status)
 (related  case301 male has-gender)
@@ -418,4 +427,3 @@
 (related  case301 localTransmission has-source-of-infection)
 (related  case301 Romania has-origin-of-infection)
 (related  case301 d18 has-confirmation-date)
-
